@@ -1,20 +1,16 @@
 #include "main.h"
-/**
- * main - check the code.
- * Return: Always 0.
- */
 int main(void)
 {
-    int r;
+	char i;
 
-r = _isalpha('H');
- _putchar(r + '0');
- r = _isalpha('o');
- _putchar(r + '0');
- r = _isalpha(108);
- _putchar(r + '0');
- r = _isalpha(';');
- _putchar(r + '0');
- _putchar('\n');
-    return (0);
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i == 'e' || i == 'q')
+			continue;
+		putchar(i);
+	}
+	putchar('\n');
+
+	return (0);
 }
+‏
