@@ -1,20 +1,16 @@
 #include "main.h"
+
 /**
-  * print_line - print a straight line
-  * @n: is the number of times the - character
-  *    should be printed
-  */
-
-void print_line(int n)
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int lnchr;
-
-	if (n <= 0)
-		_putchar('\n');
-	else
-	{
-		for (lnchr = 1; lnchr <= n; lnchr++)
-			_putchar('_');
-		_putchar('\n');
-	}
+print_line(0);
+print_line(2);
+print_line(10);
+print_line(-4);
+return (0);
 }
+
